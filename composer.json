@@ -6,17 +6,26 @@
     "ide-helper"
   ],
   "license": "MIT",
+  "description": "IDE help files for ext-parallel.",
   "authors": [
     {
       "name": "chaz6chez",
-      "email": "250220719@qq.com"
+      "role": "Developer"
     }
   ],
+  "support": {
+    "email": "250220719@qq.com",
+    "issues": "https://github.com/chaz6chez/parallel-ide-helper/issues",
+    "source": "https://github.com/chaz6chez/parallel-ide-helper"
+  },
+  "require": {
+    "php": ">=7.2"
+  },
   "autoload": {
     "psr-4": {
-      "parallel\\": "src"
+      "parallel\\": "src/"
     },
-    "file": [
+    "files": [
       "parallel.php"
     ]
   }
