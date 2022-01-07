@@ -8,7 +8,7 @@ namespace parallel;
  * @link https://www.php.net/manual/en/class.parallel-channel.php
  * @package parallel
  */
-class Channel
+final class Channel
 {
     /** @var int Constant for Infinitely Buffered */
     public const Infinite = -1;

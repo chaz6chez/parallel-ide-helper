@@ -5,6 +5,6 @@ namespace parallel\Runtime\Error;
 
 use Exception;
 
-class IllegalReturn extends Exception
+class Bootstrap extends Exception
 {
 }
