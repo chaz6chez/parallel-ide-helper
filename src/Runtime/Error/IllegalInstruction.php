@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace parallel\Runtime\Error;
 
-use Exception;
+use Error;
 
-class IllegalInstruction extends Exception
+class IllegalInstruction extends Error
 {
 }

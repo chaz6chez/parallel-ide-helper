@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace parallel\Runtime;
 
-use Exception;
+use Error;
 
-class Bootstrap extends Exception
+class Bootstrap extends Error
 {
 }

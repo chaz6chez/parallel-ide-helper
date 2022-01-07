@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace parallel\Runtime;
 
-class Error extends \Exception
-{
-}
+use Error as BaseError;
+
+class Error extends BaseError
+{}

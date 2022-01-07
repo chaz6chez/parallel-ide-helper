@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace parallel\Runtime\Error;
 
-use Exception;
+use Error;
 
-class IllegalParameter extends Exception
+class IllegalParameter extends Error
 {
 }
