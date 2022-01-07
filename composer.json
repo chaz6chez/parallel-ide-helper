@@ -1,0 +1,26 @@
+{
+  "name": "chaz6chez/parallel-ide-helper",
+  "type": "library",
+  "keywords": [
+    "ext-parallel",
+    "ide-helper"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "chaz6chez",
+      "email": "250220719@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "parallel\\": "src"
+    },
+    "file": [
+      "parallel.php"
+    ]
+  }
+}
