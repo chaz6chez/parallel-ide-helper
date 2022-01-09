@@ -26,7 +26,7 @@
       "parallel\\": "src/"
     },
     "files": [
-      "parallel.php"
+      "src/functions.php"
     ]
   }
 }
