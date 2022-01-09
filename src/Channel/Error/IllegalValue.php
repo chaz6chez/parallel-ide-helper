@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace parallel\Channel\Error;
 
-use Exception;
+use Error;
 
-class IllegalValue extends Exception
+class IllegalValue extends Error
 {}

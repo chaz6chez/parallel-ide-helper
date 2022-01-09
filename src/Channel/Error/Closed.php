@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace parallel\Channel\Error;
 
-use Exception;
+use Error;
 
-class Closed extends Exception
+class Closed extends Error
 {}

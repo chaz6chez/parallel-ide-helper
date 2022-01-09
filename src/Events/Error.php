@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace parallel\Events;
 
-use Exception;
+use Error as BaseError;
 
-class Error extends Exception
+class Error extends BaseError
 {}
